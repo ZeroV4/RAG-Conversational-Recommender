@@ -1,5 +1,41 @@
 {
-  "title": "Context model",
-  "description": "Temporary information describing the current recommendation situation.",
-  "fields": []
+  "title": "Movie Context",
+  "description": "Context with regards to movie recommendations.",
+  "fields": [
+    {
+      "id": "preferred_genre",
+      "label": "Preferred Genre",
+      "type": "select",
+      "default": "Action",
+      "include_in_retrieval": true,
+      "item_fields": [
+        "genres"
+      ],
+      "weight": 1,
+      "matching": "ordinal",
+      "options": [
+        "Action",
+        "Adventure",
+        "Animation",
+        "Comedy",
+        "Coming of Age",
+        "Crime",
+        "Drama",
+        "Family",
+        "Fantasy",
+        "Horror",
+        "Music",
+        "Musical",
+        "Mystery",
+        "Romance",
+        "Science Fiction",
+        "Thriller",
+        "War"
+      ],
+      "constraint": {
+        "operator": "minimum",
+        "item_field": "genres"
+      }
+    }
+  ]
 }

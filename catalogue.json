@@ -2,7 +2,13 @@
   {
     "id": "MV0025",
     "title": "Casablanca",
-    "topics": ["love", "sacrifice", "war", "exile", "moral choice"],
+    "topics": [
+      "love",
+      "sacrifice",
+      "war",
+      "exile",
+      "moral choice"
+    ],
     "rating": "PG",
     "format": "film",
     "duration_minutes": 102,
@@ -11,13 +17,23 @@
     "director": "Michael Curtiz",
     "cast": "Humphrey Bogart, Ingrid Bergman, Paul Henreid, Claude Rains",
     "release_year": 1942,
-    "genres": ["Romance", "Drama", "War"],
+    "genres": [
+      "Romance",
+      "Drama",
+      "War"
+    ],
     "language": "English"
   },
   {
     "id": "MV0026",
     "title": "Seven Samurai",
-    "topics": ["honor", "community", "sacrifice", "feudalism", "teamwork"],
+    "topics": [
+      "honor",
+      "community",
+      "sacrifice",
+      "feudalism",
+      "teamwork"
+    ],
     "rating": "R",
     "format": "film",
     "duration_minutes": 207,
@@ -26,13 +42,23 @@
     "director": "Akira Kurosawa",
     "cast": "Toshiro Mifune, Takashi Shimura, Keiko Tsushima, Isao Kimura",
     "release_year": 1954,
-    "genres": ["Action", "Drama", "Adventure"],
+    "genres": [
+      "Action",
+      "Drama",
+      "Adventure"
+    ],
     "language": "Japanese"
   },
   {
     "id": "MV0027",
     "title": "Stand by Me",
-    "topics": ["friendship", "childhood", "loss", "adventure", "growing up"],
+    "topics": [
+      "friendship",
+      "childhood",
+      "loss",
+      "adventure",
+      "growing up"
+    ],
     "rating": "PG",
     "format": "film",
     "duration_minutes": 89,
@@ -41,13 +67,23 @@
     "director": "Rob Reiner",
     "cast": "Wil Wheaton, River Phoenix, Corey Feldman, Jerry O'Connell",
     "release_year": 1986,
-    "genres": ["Adventure", "Drama", "Coming of Age"],
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Coming of Age"
+    ],
     "language": "English"
   },
   {
     "id": "MV0028",
     "title": "Do the Right Thing",
-    "topics": ["racism", "community", "heatwave", "justice", "Brooklyn"],
+    "topics": [
+      "racism",
+      "community",
+      "heatwave",
+      "justice",
+      "Brooklyn"
+    ],
     "rating": "R",
     "format": "film",
     "duration_minutes": 120,
@@ -56,13 +92,22 @@
     "director": "Spike Lee",
     "cast": "Spike Lee, Danny Aiello, Ossie Davis, John Turturro",
     "release_year": 1989,
-    "genres": ["Drama", "Comedy"],
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
     "language": "English"
   },
   {
     "id": "MV0029",
     "title": "Amélie",
-    "topics": ["kindness", "Paris", "imagination", "love", "solitude"],
+    "topics": [
+      "kindness",
+      "Paris",
+      "imagination",
+      "love",
+      "solitude"
+    ],
     "rating": "R",
     "format": "film",
     "duration_minutes": 122,
@@ -71,13 +116,23 @@
     "director": "Jean-Pierre Jeunet",
     "cast": "Audrey Tautou, Mathieu Kassovitz, Rufus, Serge Merlin",
     "release_year": 2001,
-    "genres": ["Romance", "Comedy", "Fantasy"],
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Fantasy"
+    ],
     "language": "French"
   },
   {
     "id": "MV0030",
     "title": "City of God",
-    "topics": ["poverty", "crime", "ambition", "violence", "Brazil"],
+    "topics": [
+      "poverty",
+      "crime",
+      "ambition",
+      "violence",
+      "Brazil"
+    ],
     "rating": "R",
     "format": "film",
     "duration_minutes": 130,
@@ -86,13 +141,22 @@
     "director": "Fernando Meirelles, Kátia Lund",
     "cast": "Alexandre Rodrigues, Leandro Firmino, Matheus Nachtergaele, Seu Jorge",
     "release_year": 2002,
-    "genres": ["Crime", "Drama"],
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
     "language": "Portuguese"
   },
   {
     "id": "MV0031",
     "title": "Eternal Sunshine of the Spotless Mind",
-    "topics": ["memory", "love", "loss", "identity", "regret"],
+    "topics": [
+      "memory",
+      "love",
+      "loss",
+      "identity",
+      "regret"
+    ],
     "rating": "R",
     "format": "film",
     "duration_minutes": 108,
@@ -101,13 +165,23 @@
     "director": "Michel Gondry",
     "cast": "Jim Carrey, Kate Winslet, Kirsten Dunst, Mark Ruffalo",
     "release_year": 2004,
-    "genres": ["Science Fiction", "Romance", "Drama"],
+    "genres": [
+      "Science Fiction",
+      "Romance",
+      "Drama"
+    ],
     "language": "English"
   },
   {
     "id": "MV0032",
     "title": "Little Miss Sunshine",
-    "topics": ["family", "failure", "self-acceptance", "road trip", "dreams"],
+    "topics": [
+      "family",
+      "failure",
+      "self-acceptance",
+      "road trip",
+      "dreams"
+    ],
     "rating": "R",
     "format": "film",
     "duration_minutes": 101,
@@ -116,13 +190,22 @@
     "director": "Jonathan Dayton, Valerie Faris",
     "cast": "Abigail Breslin, Greg Kinnear, Toni Collette, Steve Carell",
     "release_year": 2006,
-    "genres": ["Comedy", "Drama"],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "language": "English"
   },
   {
     "id": "MV0033",
     "title": "Whiplash",
-    "topics": ["obsession", "ambition", "mentorship", "music", "sacrifice"],
+    "topics": [
+      "obsession",
+      "ambition",
+      "mentorship",
+      "music",
+      "sacrifice"
+    ],
     "rating": "R",
     "format": "film",
     "duration_minutes": 106,
@@ -131,13 +214,22 @@
     "director": "Damien Chazelle",
     "cast": "Miles Teller, J.K. Simmons, Paul Reiser, Melissa Benoist",
     "release_year": 2014,
-    "genres": ["Drama", "Music"],
+    "genres": [
+      "Drama",
+      "Music"
+    ],
     "language": "English"
   },
   {
     "id": "MV0034",
     "title": "Your Name",
-    "topics": ["body swap", "fate", "love", "time", "Japanese culture"],
+    "topics": [
+      "body swap",
+      "fate",
+      "love",
+      "time",
+      "Japanese culture"
+    ],
     "rating": "PG",
     "format": "film",
     "duration_minutes": 106,
@@ -146,13 +238,23 @@
     "director": "Makoto Shinkai",
     "cast": "Ryunosuke Kamiki, Mone Kamishiraishi, Ryo Narita, Aoi Yuki",
     "release_year": 2016,
-    "genres": ["Animation", "Romance", "Fantasy"],
+    "genres": [
+      "Animation",
+      "Romance",
+      "Fantasy"
+    ],
     "language": "Japanese"
   },
   {
     "id": "MV0035",
     "title": "Everything Everywhere All at Once",
-    "topics": ["multiverse", "family", "identity", "immigrant life", "absurdity"],
+    "topics": [
+      "multiverse",
+      "family",
+      "identity",
+      "immigrant life",
+      "absurdity"
+    ],
     "rating": "R",
     "format": "film",
     "duration_minutes": 139,
@@ -161,13 +263,23 @@
     "director": "Daniel Kwan, Daniel Scheinert",
     "cast": "Michelle Yeoh, Ke Huy Quan, Stephanie Hsu, Jamie Lee Curtis",
     "release_year": 2022,
-    "genres": ["Science Fiction", "Comedy", "Action"],
+    "genres": [
+      "Science Fiction",
+      "Comedy",
+      "Action"
+    ],
     "language": "English"
   },
   {
     "id": "MV0036",
     "title": "The Godfather",
-    "topics": ["family", "power", "loyalty", "crime", "legacy"],
+    "topics": [
+      "family",
+      "power",
+      "loyalty",
+      "crime",
+      "legacy"
+    ],
     "rating": "R",
     "format": "film",
     "duration_minutes": 175,
@@ -176,7 +288,10 @@
     "director": "Francis Ford Coppola",
     "cast": "Marlon Brando, Al Pacino, James Caan, Robert Duvall",
     "release_year": 1972,
-    "genres": ["Crime", "Drama"],
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
     "language": "English"
   }
 ]
