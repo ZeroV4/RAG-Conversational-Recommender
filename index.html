@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RAG Conversational Recommender</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">Intelligent User Interfaces</p>
+      <h1>RAG Conversational Recommender</h1>
+      <p>A student-defined catalogue is retrieved and re-ranked with an explicit user model and context model before a local LLM explains the result.</p>
+    </div>
+    <div id="systemStatus" class="status" role="status">Checking system…</div>
+    <button id="openDesigner" class="header-button" type="button">Design models</button>
+  </header>
+
+  <section id="designer" class="designer" hidden aria-labelledby="designerTitle">
+    <div class="designer-header">
+      <div>
+        <p class="eyebrow">Student workspace</p>
+        <h2 id="designerTitle">User and context model designer</h2>
+        <p>Define the information the recommender should use. The app will create the JSON and generate the corresponding interface.</p>
+      </div>
+      <button id="closeDesigner" class="secondary" type="button">Close</button>
+    </div>
+    <div class="designer-help">
+      <strong>Suggested order:</strong> create the catalogue first, then connect the user and context fields to its properties.
+    </div>
+    <section class="catalogue-designer">
+      <div class="section-heading">
+        <div><p class="eyebrow">Candidate items</p><h3>Catalogue designer</h3></div>
+        <div class="button-row">
+          <label class="file-button">Import catalogue JSON<input id="catalogueImport" type="file" accept="application/json,.json"></label>
+          <button id="addCatalogueField" class="secondary" type="button">+ Add property</button>
+        </div>
+      </div>
+      <div class="catalogue-basics">
+        <label>Catalogue title<input id="catalogueTitle" type="text"></label>
+        <label>Description<textarea id="catalogueDescription" rows="2"></textarea></label>
+        <label>Unique ID property<select id="identityField"></select></label>
+        <label>Title property<select id="titleField"></select></label>
+        <label>Description property<select id="descriptionField"></select></label>
+        <label>Properties used for semantic retrieval<select id="embeddingFields" multiple size="5"></select></label>
+      </div>
+      <h4>Catalogue properties</h4>
+      <div id="catalogueFields" class="catalogue-fields"></div>
+      <div class="subsection-heading">
+        <div><h4>Catalogue items</h4><p>Apply the property structure after adding, renaming, or removing properties.</p></div>
+        <div class="button-row"><button id="applyCatalogueFields" class="secondary" type="button">Apply property structure</button><button id="addCatalogueItem" class="secondary" type="button">+ Add item</button></div>
+      </div>
+      <div id="catalogueItems" class="catalogue-items"></div>
+      <div class="catalogue-save"><p id="catalogueStatus" role="status">Saving validates the catalogue and rebuilds its local vectors.</p><button id="saveCatalogue" type="button">Save catalogue and rebuild index</button></div>
+    </section>
+    <div class="designer-columns">
+      <section class="designer-model" data-model="user_model">
+        <div class="section-heading"><div><p class="eyebrow">Across sessions</p><h3>User model</h3></div><button class="secondary add-field" type="button">+ Add field</button></div>
+        <label>Model title<input class="model-title" type="text"></label>
+        <label>Description<textarea class="model-description" rows="2"></textarea></label>
+        <div class="designer-fields"></div>
+      </section>
+      <section class="designer-model" data-model="context_model">
+        <div class="section-heading"><div><p class="eyebrow">Current situation</p><h3>Context model</h3></div><button class="secondary add-field" type="button">+ Add field</button></div>
+        <label>Model title<input class="model-title" type="text"></label>
+        <label>Description<textarea class="model-description" rows="2"></textarea></label>
+        <div class="designer-fields"></div>
+      </section>
+    </div>
+    <div class="designer-actions">
+      <p id="designerStatus" role="status">Changes are saved into <code>user_model.json</code> and <code>context_model.json</code>.</p>
+      <button id="saveModels" type="button">Save and generate interface</button>
+    </div>
+  </section>
+
+  <main>
+    <aside class="models" aria-label="Personalisation models">
+      <section class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">User preferences</p>
+            <h2 id="userModelTitle">User model</h2>
+          </div>
+          <button id="resetUser" class="secondary" type="button">Reset</button>
+        </div>
+        <p id="userModelDescription" class="muted"></p>
+        <div id="userModelFields" class="form-grid"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">This session</p>
+            <h2 id="contextModelTitle">Context model</h2>
+          </div>
+          <button id="resetContext" class="secondary" type="button">Reset</button>
+        </div>
+        <p id="contextModelDescription" class="muted"></p>
+        <div id="contextModelFields" class="form-grid"></div>
+      </section>
+    </aside>
+
+    <section class="workspace">
+      <section class="panel conversation-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Conversation</p>
+            <h2>Ask for a recommendation</h2>
+          </div>
+          <button id="clearConversation" class="secondary" type="button">Clear</button>
+        </div>
+
+        <div id="messages" class="messages" aria-live="polite">
+          <article class="message assistant">
+            <strong>Recommender</strong>
+            <p>Describe what you want to learn. I will retrieve catalogue items, apply your models, and ask the local LLM to explain the strongest candidates.</p>
+          </article>
+        </div>
+
+        <form id="chatForm" class="composer">
+          <label for="query">Student query</label>
+          <textarea id="query" rows="3" required placeholder="e.g. Recommend a short visual introduction to attention."></textarea>
+          <div class="composer-actions">
+            <label class="toggle"><input id="debugToggle" type="checkbox"> Show inspection data</label>
+            <button id="submitButton" type="submit">Recommend</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">RAG evidence</p>
+            <h2>Retrieved and re-ranked items</h2>
+          </div>
+        </div>
+        <div id="candidates" class="candidates empty">No candidates yet.</div>
+      </section>
+
+      <section id="debugPanel" class="panel debug-panel" hidden>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Technical inspection</p>
+            <h2>Latest pipeline data</h2>
+          </div>
+          <button id="copyDebug" class="secondary" type="button">Copy JSON</button>
+        </div>
+        <pre id="debugOutput">Submit a query to inspect the pipeline.</pre>
+      </section>
+    </section>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

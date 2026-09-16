@@ -1,0 +1,301 @@
+[
+  {
+    "id": "MV0013",
+    "title": "Matilda",
+    "topics": [
+      "books",
+      "kindness",
+      "bullying",
+      "family",
+      "empowerment"
+    ],
+    "rating": "PG",
+    "format": "film",
+    "duration_minutes": 102,
+    "interaction_style": "family",
+    "description": "A brilliant young girl with telekinetic powers stands up to her cruel headmistress and neglectful parents.",
+    "director": "Danny DeVito",
+    "cast": "Mara Wilson, Danny DeVito, Rhea Perlman, Pam Ferris",
+    "release_year": 1996,
+    "genres": [
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0014",
+    "title": "The Parent Trap",
+    "topics": [
+      "twins",
+      "family",
+      "reunion",
+      "summer camp",
+      "parents"
+    ],
+    "rating": "PG",
+    "format": "film",
+    "duration_minutes": 128,
+    "interaction_style": "family",
+    "description": "Twin sisters separated at birth meet at summer camp and scheme to reunite their parents.",
+    "director": "Nancy Meyers",
+    "cast": "Lindsay Lohan, Dennis Quaid, Natasha Richardson, Elaine Hendrix",
+    "release_year": 1998,
+    "genres": [
+      "Comedy",
+      "Family",
+      "Romance"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0015",
+    "title": "The Princess Bride",
+    "topics": [
+      "true love",
+      "adventure",
+      "swordfighting",
+      "humor",
+      "storytelling"
+    ],
+    "rating": "PG",
+    "format": "film",
+    "duration_minutes": 98,
+    "interaction_style": "family",
+    "description": "A grandfather reads his grandson a fairy tale about love, pirates, and revenge.",
+    "director": "Rob Reiner",
+    "cast": "Cary Elwes, Robin Wright, Mandy Patinkin, Wallace Shawn",
+    "release_year": 1987,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0016",
+    "title": "Holes",
+    "topics": [
+      "friendship",
+      "justice",
+      "family curse",
+      "survival",
+      "mystery"
+    ],
+    "rating": "PG",
+    "format": "film",
+    "duration_minutes": 117,
+    "interaction_style": "family",
+    "description": "A wrongfully convicted boy is sent to a desert camp where he and other boys dig holes all day.",
+    "director": "Andrew Davis",
+    "cast": "Shia LaBeouf, Sigourney Weaver, Jon Voight, Patricia Arquette",
+    "release_year": 2003,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Family"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0017",
+    "title": "A Little Princess",
+    "topics": [
+      "imagination",
+      "resilience",
+      "friendship",
+      "loss",
+      "kindness"
+    ],
+    "rating": "G",
+    "format": "film",
+    "duration_minutes": 97,
+    "interaction_style": "family",
+    "description": "A young girl at a strict boarding school keeps her spirit alive through imagination and kindness.",
+    "director": "Alfonso Cuarón",
+    "cast": "Liesel Matthews, Eleanor Bron, Liam Cunningham, Vanessa Lee Chester",
+    "release_year": 1995,
+    "genres": [
+      "Drama",
+      "Family",
+      "Fantasy"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0018",
+    "title": "Because of Winn-Dixie",
+    "topics": [
+      "friendship",
+      "loneliness",
+      "community",
+      "pets",
+      "healing"
+    ],
+    "rating": "PG",
+    "format": "film",
+    "duration_minutes": 106,
+    "interaction_style": "family",
+    "description": "A lonely girl befriends a scruffy dog who helps her connect with her small-town community.",
+    "director": "Wayne Wang",
+    "cast": "AnnaSophia Robb, Jeff Daniels, Cicely Tyson, Eva Marie Saint",
+    "release_year": 2005,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0019",
+    "title": "Bridge to Terabithia",
+    "topics": [
+      "friendship",
+      "imagination",
+      "loss",
+      "grief",
+      "childhood"
+    ],
+    "rating": "PG",
+    "format": "film",
+    "duration_minutes": 96,
+    "interaction_style": "family",
+    "description": "Two lonely kids create an imaginary kingdom together, until tragedy changes everything.",
+    "director": "Gábor Csupó",
+    "cast": "Josh Hutcherson, AnnaSophia Robb, Zooey Deschanel, Robert Patrick",
+    "release_year": 2007,
+    "genres": [
+      "Drama",
+      "Family",
+      "Fantasy"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0020",
+    "title": "Little Women",
+    "topics": [
+      "sisterhood",
+      "ambition",
+      "family",
+      "coming of age",
+      "love"
+    ],
+    "rating": "PG",
+    "format": "film",
+    "duration_minutes": 135,
+    "interaction_style": "family",
+    "description": "Four sisters come of age in 19th-century America, each chasing her own dreams.",
+    "director": "Greta Gerwig",
+    "cast": "Saoirse Ronan, Emma Watson, Florence Pugh, Timothée Chalamet",
+    "release_year": 2019,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0021",
+    "title": "The Sound of Music",
+    "topics": [
+      "music",
+      "family",
+      "courage",
+      "love",
+      "escape"
+    ],
+    "rating": "G",
+    "format": "film",
+    "duration_minutes": 172,
+    "interaction_style": "family",
+    "description": "A young governess brings music and joy to a strict Austrian family on the eve of war.",
+    "director": "Robert Wise",
+    "cast": "Julie Andrews, Christopher Plummer, Eleanor Parker",
+    "release_year": 1965,
+    "genres": [
+      "Musical",
+      "Drama",
+      "Family"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0022",
+    "title": "Babe",
+    "topics": [
+      "identity",
+      "kindness",
+      "farm life",
+      "belonging",
+      "courage"
+    ],
+    "rating": "G",
+    "format": "film",
+    "duration_minutes": 91,
+    "interaction_style": "family",
+    "description": "A pig who wants to be a sheepdog proves that kindness can win over anyone.",
+    "director": "Chris Noonan",
+    "cast": "James Cromwell, Magda Szubanski, Christine Cavanaugh",
+    "release_year": 1995,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0023",
+    "title": "Hugo",
+    "topics": [
+      "film history",
+      "mystery",
+      "orphans",
+      "invention",
+      "Paris"
+    ],
+    "rating": "PG",
+    "format": "film",
+    "duration_minutes": 126,
+    "interaction_style": "family",
+    "description": "An orphan boy living in a Paris train station uncovers a mystery tied to early cinema.",
+    "director": "Martin Scorsese",
+    "cast": "Asa Butterfield, Chloë Grace Moretz, Ben Kingsley, Sacha Baron Cohen",
+    "release_year": 2011,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Family"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0024",
+    "title": "The Secret Garden",
+    "topics": [
+      "grief",
+      "friendship",
+      "nature",
+      "healing",
+      "childhood"
+    ],
+    "rating": "G",
+    "format": "film",
+    "duration_minutes": 101,
+    "interaction_style": "family",
+    "description": "A lonely orphan girl discovers a hidden garden that transforms her and her cousins' lives.",
+    "director": "Agnieszka Holland",
+    "cast": "Kate Maberly, Maggie Smith, Heydon Prowse, Andrew Knott",
+    "release_year": 1993,
+    "genres": [
+      "Drama",
+      "Family",
+      "Fantasy"
+    ],
+    "language": "English"
+  }
+]

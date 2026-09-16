@@ -1,0 +1,103 @@
+{
+  "title": "Imported catalogue",
+  "description": "Catalogue imported through the visual designer.",
+  "identity_field": "id",
+  "title_field": "title",
+  "description_field": "description",
+  "embedding_fields": [
+    "id",
+    "title",
+    "topics",
+    "rating",
+    "format",
+    "duration_minutes",
+    "interaction_style",
+    "description",
+    "director",
+    "cast",
+    "release_year",
+    "genres",
+    "language"
+  ],
+  "fields": [
+    {
+      "id": "id",
+      "label": "Id",
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    {
+      "id": "title",
+      "label": "Title",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "topics",
+      "label": "Topics",
+      "type": "tags",
+      "required": true
+    },
+    {
+      "id": "rating",
+      "label": "Rating",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "format",
+      "label": "Format",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "duration_minutes",
+      "label": "Duration minutes",
+      "type": "number",
+      "required": true
+    },
+    {
+      "id": "interaction_style",
+      "label": "Interaction style",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "description",
+      "label": "Description",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "director",
+      "label": "Director",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "cast",
+      "label": "Cast",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "release_year",
+      "label": "Release year",
+      "type": "number",
+      "required": true
+    },
+    {
+      "id": "genres",
+      "label": "Genres",
+      "type": "tags",
+      "required": true
+    },
+    {
+      "id": "language",
+      "label": "Language",
+      "type": "text",
+      "required": true
+    }
+  ]
+}

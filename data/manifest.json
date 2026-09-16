@@ -1,0 +1,20 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dimensions": 384,
+  "item_count": 12,
+  "item_ids": [
+    "MV0013",
+    "MV0014",
+    "MV0015",
+    "MV0016",
+    "MV0017",
+    "MV0018",
+    "MV0019",
+    "MV0020",
+    "MV0021",
+    "MV0022",
+    "MV0023",
+    "MV0024"
+  ],
+  "configuration_sha256": "00da0be894124070de8e12e56bae7f10e8e1eb14947c1291329f89387a8c8bd5"
+}
