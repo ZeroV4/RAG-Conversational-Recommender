@@ -31,11 +31,7 @@
         "Science Fiction",
         "Thriller",
         "War"
-      ],
-      "constraint": {
-        "operator": "minimum",
-        "item_field": "genres"
-      }
+      ]
     }
   ]
 }
