@@ -22,7 +22,7 @@
       "id": "release_year",
       "label": "What is the latest the movie should have been released?",
       "type": "number",
-      "default": 2025,
+      "default": 2015,
       "include_in_retrieval": false,
       "item_fields": [
         "release_year"
@@ -60,6 +60,5 @@
       "weight": 1.5,
       "matching": "token_overlap"
     }
-    
   ]
 }
