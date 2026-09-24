@@ -293,5 +293,208 @@
       "Drama"
     ],
     "language": "English"
+  },
+  {
+    "id": "MV0037",
+    "title": "Spirited Away",
+    "topics": [
+      "courage",
+      "identity",
+      "spirits",
+      "growing up",
+      "folklore"
+    ],
+    "rating": "PG",
+    "format": "film",
+    "duration_minutes": 125,
+    "interaction_style": "solo or group",
+    "description": "A young girl wanders into a world ruled by gods and spirits and must work to free her transformed parents.",
+    "director": "Hayao Miyazaki",
+    "cast": "Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takeshi Naito",
+    "release_year": 2001,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Fantasy"
+    ],
+    "language": "Japanese"
+  },
+  {
+    "id": "MV0038",
+    "title": "Blade Runner 2049",
+    "topics": [
+      "identity",
+      "artificial intelligence",
+      "solitude",
+      "dystopia",
+      "memory"
+    ],
+    "rating": "R",
+    "format": "film",
+    "duration_minutes": 164,
+    "interaction_style": "solo",
+    "description": "A young Blade Runner discovers a long-buried secret that leads him to track down former Blade Runner Rick Deckard.",
+    "director": "Denis Villeneuve",
+    "cast": "Ryan Gosling, Harrison Ford, Ana de Armas, Sylvia Hoeks",
+    "release_year": 2017,
+    "genres": [
+      "Science Fiction",
+      "Mystery",
+      "Drama"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0039",
+    "title": "Get Out",
+    "topics": [
+      "racism",
+      "paranoia",
+      "survival",
+      "suburbia",
+      "identity"
+    ],
+    "rating": "R",
+    "format": "film",
+    "duration_minutes": 104,
+    "interaction_style": "solo or group",
+    "description": "A young Black man visits his white girlfriend's family estate and uncovers a disturbing secret.",
+    "director": "Jordan Peele",
+    "cast": "Daniel Kaluuya, Allison Williams, Bradley Whitford, Catherine Keener",
+    "release_year": 2017,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0040",
+    "title": "The Princess Bride",
+    "topics": [
+      "true love",
+      "revenge",
+      "fencing",
+      "adventure",
+      "fairy tale"
+    ],
+    "rating": "PG",
+    "format": "film",
+    "duration_minutes": 98,
+    "interaction_style": "solo or group",
+    "description": "A farmboy-turned-pirate encounters numerous obstacles and enemies in his quest to rescue his true love.",
+    "director": "Rob Reiner",
+    "cast": "Cary Elwes, Robin Wright, Mandy Patinkin, Chris Sarandon",
+    "release_year": 1987,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Romance",
+      "Fantasy"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0041",
+    "title": "Knives Out",
+    "topics": [
+      "whodunit",
+      "family feud",
+      "greed",
+      "deception",
+      "investigation"
+    ],
+    "rating": "PG-13",
+    "format": "film",
+    "duration_minutes": 130,
+    "interaction_style": "solo or group",
+    "description": "A detective investigates the death of a patriarch of an eccentric, combative family.",
+    "director": "Rian Johnson",
+    "cast": "Daniel Craig, Ana de Armas, Chris Evans, Jamie Lee Curtis",
+    "release_year": 2019,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Mystery"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0042",
+    "title": "Parasite",
+    "topics": [
+      "class struggle",
+      "social inequality",
+      "deception",
+      "family",
+      "greed"
+    ],
+    "rating": "R",
+    "format": "film",
+    "duration_minutes": 132,
+    "interaction_style": "solo",
+    "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between a wealthy family and a destitute clan.",
+    "director": "Bong Joon Ho",
+    "cast": "Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-shik",
+    "release_year": 2019,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Comedy"
+    ],
+    "language": "Korean"
+  },
+  {
+    "id": "MV0043",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "topics": [
+      "mentorship",
+      "identity",
+      "heroism",
+      "multiverse",
+      "family"
+    ],
+    "rating": "PG",
+    "format": "film",
+    "duration_minutes": 117,
+    "interaction_style": "solo or group",
+    "description": "Teen Miles Morales becomes the new Spider-Man and joins other Spider-heroes from parallel dimensions to stop a threat to all reality.",
+    "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+    "cast": "Shameik Moore, Jake Johnson, Hailee Steinfeld, Mahershala Ali",
+    "release_year": 2018,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "language": "English"
+  },
+  {
+    "id": "MV0044",
+    "title": "Mad Max: Fury Road",
+    "topics": [
+      "survival",
+      "rebellion",
+      "wasteland",
+      "redemption",
+      "freedom"
+    ],
+    "rating": "R",
+    "format": "film",
+    "duration_minutes": 120,
+    "interaction_style": "solo",
+    "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners.",
+    "director": "George Miller",
+    "cast": "Tom Hardy, Charlize Theron, Nicholas Hoult, Hugh Keays-Byrne",
+    "release_year": 2015,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "language": "English"
   }
+
+
 ]
