@@ -32,6 +32,89 @@
         "Thriller",
         "War"
       ]
+    },
+    {
+      "id": "available_minutes",
+      "label": "Available minutes",
+      "type": "number",
+      "default": 120,
+      "include_in_retrieval": false,
+      "item_fields": [
+        "duration_minutes"
+      ],
+      "weight": 1,
+      "matching": "prefer_smaller",
+      "constraint": {
+        "operator": "maximum",
+        "item_field": "duration_minutes"
+      }
+    },
+    {
+      "id": "latest_release_year",
+      "label": "Latest release year",
+      "type": "number",
+      "default": 2025,
+      "include_in_retrieval": false,
+      "item_fields": [
+        "release_year"
+      ],
+      "weight": 1,
+      "matching": "prefer_smaller",
+      "constraint": {
+        "operator": "maximum",
+        "item_field": "release_year"
+      }
+    },
+    {
+      "id": "rating",
+      "label": "Preferred rating",
+      "type": "select",
+      "default": "PG",
+      "include_in_retrieval": true,
+      "item_fields": [
+        "rating"
+      ],
+      "weight": 1,
+      "matching": "ordinal",
+      "options": [
+        "G",
+        "PG",
+        "PG-13",
+        "R"
+      ]
+    },
+    {
+      "id": "format",
+      "label": "Preferred format",
+      "type": "select",
+      "default": "film",
+      "include_in_retrieval": true,
+      "item_fields": [
+        "format"
+      ],
+      "weight": 1,
+      "matching": "ordinal",
+      "options": [
+        "film"
+      ]
+    },
+    {
+      "id": "language",
+      "label": "Preferred language",
+      "type": "select",
+      "default": "English",
+      "include_in_retrieval": true,
+      "item_fields": [
+        "language"
+      ],
+      "weight": 1,
+      "matching": "ordinal",
+      "options": [
+        "English",
+        "Japanese",
+        "French",
+        "Portuguese"
+      ]
     }
   ]
 }
