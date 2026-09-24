@@ -3,38 +3,6 @@
   "description": "Relatively stable characteristics and preferences used for personalisation.",
   "fields": [
     {
-      "id": "available_minutes",
-      "label": "How many minutes are available?",
-      "type": "number",
-      "default": 120,
-      "include_in_retrieval": false,
-      "item_fields": [
-        "duration_minutes"
-      ],
-      "weight": 1,
-      "matching": "prefer_smaller",
-      "constraint": {
-        "operator": "maximum",
-        "item_field": "duration_minutes"
-      }
-    },
-    {
-      "id": "release_year",
-      "label": "What is the latest the movie should have been released?",
-      "type": "number",
-      "default": 2025,
-      "include_in_retrieval": false,
-      "item_fields": [
-        "release_year"
-      ],
-      "weight": 1,
-      "matching": "prefer_smaller",
-      "constraint": {
-        "operator": "maximum",
-        "item_field": "release_year"
-      }
-    },
-    {
       "id": "preferred_genre",
       "label": "Preferred genre",
       "type": "tags",
@@ -45,7 +13,7 @@
       "item_fields": [
         "genres"
       ],
-      "weight": 2
+      "weight": 0.75
     },
     {
       "id": "themes",
@@ -57,9 +25,44 @@
         "topics",
         "description"
       ],
-      "weight": 1.5,
+      "weight": 0.5,
+      "matching": "token_overlap"
+    },
+    {
+      "id": "preferred_language",
+      "label": "Preferred language",
+      "type": "text",
+      "default": "English",
+      "include_in_retrieval": true,
+      "item_fields": [
+        "language"
+      ],
+      "weight": 0.1,
+      "matching": "token_overlap"
+    },
+    {
+      "id": "favorite_actor",
+      "label": "Favourite actor",
+      "type": "text",
+      "default": "",
+      "include_in_retrieval": true,
+      "item_fields": [
+        "cast"
+      ],
+      "weight": 0.1,
+      "matching": "token_overlap"
+    },
+    {
+      "id": "favorite_director",
+      "label": "Favourite director",
+      "type": "text",
+      "default": "",
+      "include_in_retrieval": true,
+      "item_fields": [
+        "director"
+      ],
+      "weight": 0.1,
       "matching": "token_overlap"
     }
-    
   ]
 }

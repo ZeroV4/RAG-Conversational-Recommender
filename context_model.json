@@ -35,7 +35,7 @@
     },
     {
       "id": "available_minutes",
-      "label": "Available minutes",
+      "label": "How many minutes are available?",
       "type": "number",
       "default": 120,
       "include_in_retrieval": false,
@@ -51,7 +51,7 @@
     },
     {
       "id": "latest_release_year",
-      "label": "Latest release year",
+      "label": "What is the latest the movie should have been released?",
       "type": "number",
       "default": 2025,
       "include_in_retrieval": false,
@@ -68,53 +68,26 @@
     {
       "id": "rating",
       "label": "Preferred rating",
-      "type": "select",
-      "default": "PG",
+      "type": "text",
+      "default": "",
       "include_in_retrieval": true,
       "item_fields": [
         "rating"
       ],
-      "weight": 1,
-      "matching": "ordinal",
-      "options": [
-        "G",
-        "PG",
-        "PG-13",
-        "R"
-      ]
+      "weight": 0.5,
+      "matching": "token_overlap"
     },
     {
       "id": "format",
       "label": "Preferred format",
-      "type": "select",
-      "default": "film",
+      "type": "text",
+      "default": "",
       "include_in_retrieval": true,
       "item_fields": [
         "format"
       ],
-      "weight": 1,
-      "matching": "ordinal",
-      "options": [
-        "film"
-      ]
-    },
-    {
-      "id": "language",
-      "label": "Preferred language",
-      "type": "select",
-      "default": "English",
-      "include_in_retrieval": true,
-      "item_fields": [
-        "language"
-      ],
-      "weight": 1,
-      "matching": "ordinal",
-      "options": [
-        "English",
-        "Japanese",
-        "French",
-        "Portuguese"
-      ]
+      "weight": 0.5,
+      "matching": "token_overlap"
     }
   ]
 }
