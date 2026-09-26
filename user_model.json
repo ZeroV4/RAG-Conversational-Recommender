@@ -13,7 +13,8 @@
       "item_fields": [
         "genres"
       ],
-      "weight": 0.75
+      "weight": 0.75,
+      "matching": "exact"
     },
     {
       "id": "themes",
@@ -25,8 +26,7 @@
         "topics",
         "description"
       ],
-      "weight": 0.5,
-      "matching": "token_overlap"
+      "weight": 0.5
     },
     {
       "id": "preferred_language",
@@ -38,7 +38,7 @@
         "language"
       ],
       "weight": 0.1,
-      "matching": "token_overlap"
+      "matching": "exact"
     },
     {
       "id": "favorite_actor",
@@ -49,8 +49,7 @@
       "item_fields": [
         "cast"
       ],
-      "weight": 0.1,
-      "matching": "token_overlap"
+      "weight": 0.1
     },
     {
       "id": "favorite_director",
@@ -61,8 +60,7 @@
       "item_fields": [
         "director"
       ],
-      "weight": 0.1,
-      "matching": "token_overlap"
+      "weight": 0.1
     }
   ]
 }
